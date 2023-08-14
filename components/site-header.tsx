@@ -13,6 +13,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 export function SiteHeader() {
   const router = useRouter()
   const searchParams = useSearchParams()
+  const { cartCount } = useShoppingCart()
   const pathName = usePathname()
   if (pathName.startsWith("/studio")) return null
 
@@ -46,7 +47,7 @@ export function SiteHeader() {
           <Link href="/cart">
             <Button size="sm" variant="ghost">
               <ShoppingBag className="h-5 w-5" />
-              <span className="ml-2 text-sm font-bold">0</span>
+              <span className="ml-2 text-sm font-bold">{cartCount}</span>
               <span className="sr-only">Cart</span>
             </Button>
           </Link>
