@@ -27,7 +27,7 @@ export const inventory: InventoryProduct[] = [
     sku: "canvas_tote_bag_1",
     name: "Canvas Tote Bag",
     description: `Meet your new favorite carry-on. Our supersized tote is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
-    price: 1680,
+    price: 168000,
     image:
       "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/canvas-tote-bag-1.jpg",
     images: [
@@ -45,7 +45,7 @@ export const inventory: InventoryProduct[] = [
     sku: "khaki_tote_bag_1",
     name: "Khaki Tote Bag",
     description: `Meet your new favorite carry-on. Our supersized tote is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
-    price: 1450,
+    price: 145000,
     image:
       "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/khaki-tote-bag-1.jpg",
     images: [
@@ -63,7 +63,7 @@ export const inventory: InventoryProduct[] = [
     sku: "braided_leather_belt_1",
     name: "Braided Leather Belt",
     description: `These handsome leather belts are guaranteed to pull together any outfit. They're made of vegetable-tanned Italian leather, which means they have natural highs and lows of color and will look even better over time.`,
-    price: 499,
+    price: 49900,
     image: "https://m.media-amazon.com/images/I/81GyZqqJ74L._AC_UY1100_.jpg",
     images: ["https://m.media-amazon.com/images/I/61gA0yf+6oL._SL1500_.jpg"],
     sizes: ["s", "m", "l", "xl"],
@@ -76,7 +76,7 @@ export const inventory: InventoryProduct[] = [
     sku: "woolblend_suit_belt_1",
     name: "Wool-Blend Suit Belt",
     description: `This handsome belt will pull together any outfit. The strong materials will take on your wear patterns and look even better over time.`,
-    price: 559,
+    price: 55900,
     image:
       "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/woolblend-suit-belt-1.jpg",
     images: [
@@ -92,7 +92,7 @@ export const inventory: InventoryProduct[] = [
     sku: "wool_scarf_1",
     name: "Wool Scarf",
     description: `Crafted in the finest English wool from the Abraham Moon mill (established in 1837), this scarf is an elegant and cozy addition to your winter wardrobe.`,
-    price: 619,
+    price: 61900,
     image:
       "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/wool-scarf-1.jpg",
     images: [
@@ -109,7 +109,7 @@ export const inventory: InventoryProduct[] = [
     sku: "leather_gloves_1",
     name: "Leather Gloves",
     description: `The smartest winter accessory. . . These 100 percent cashmere-lined gloves feature tech-friendly fingertips, so you can use your smartphone without getting frostbite.`,
-    price: 980,
+    price: 98000,
     image:
       "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/leather-gloves-1.jpg",
     images: [
@@ -125,7 +125,7 @@ export const inventory: InventoryProduct[] = [
     sku: "down_mittens_1",
     name: "Down Mittens",
     description: `Founded in Japan and now based in the U.S., Snow Peak has been making premium outdoor gear inspired by the mountainous region of Niigata, Japan, since 1958. Crafted in durable materials, these mittens are insulated with duckdown to keep your hands warm no matter through which polar vortex your day takes you.`,
-    price: 1399,
+    price: 139900,
     image:
       "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/down-mittens-1.jpg",
     images: [
@@ -141,7 +141,7 @@ export const inventory: InventoryProduct[] = [
     sku: "brooks_sunglasses_1",
     name: "Brooks Sunglasses",
     description: `These are timeless sunglasses that are designed in California and handmade in Japan by master craftsmen. The Brooks frames are made with a keyhole bridge, one of the many details the brand includes in their construction.`,
-    price: 4200,
+    price: 420000,
     image:
       "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/brooks-sunglasses-1.jpg",
     images: [
@@ -158,7 +158,7 @@ export const inventory: InventoryProduct[] = [
     sku: "dock_sunglasses_1",
     name: "Dock Sunglasses",
     description: `Our latest collection of handcrafted sunglasses features details like UV-protective lenses in shades specifically chosen to complement each frame, and all at a price that won't break the bank. We made these sunglasses with vintage-inspired acetate frames and a keyhole bridge.`,
-    price: 5599,
+    price: 559900,
     image:
       "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/dock-sunglasses-1.jpg",
     images: [

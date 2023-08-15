@@ -5,10 +5,18 @@ import { CheckCheck, XCircle } from "lucide-react"
 import Stripe from "stripe"
 import { useShoppingCart } from "use-shopping-cart"
 
-interface Props {}
+interface Props {
+  customer_details: Stripe.Checkout.Session.CustomerDetails | null
+}
 
-export function CheckoutSession() {
-  if (false) {
+export function CheckoutSession({ customer_details }: Props) {
+  const { clearCart } = useShoppingCart()
+  useEffect(() => {
+    if (customer_details) {
+      clearCart()
+    }
+  }, [customer_details])
+  if (!customer_details) {
     return (
       <>
         <XCircle className="mx-auto h-10 w-10 text-red-400" />
@@ -26,12 +34,15 @@ export function CheckoutSession() {
         Order Successful!
       </h1>
       <h3 className="mt-8 text-2xl leading-7">
-        Thank you, <span className="font-extrabold">Name</span>!
+        Thank you,{" "}
+        <span className="font-extrabold">{customer_details.name}</span>!
       </h3>
       <p className="mt-8">
         Check your purchase email{" "}
-        <span className="mx-1 font-extrabold text-indigo-500">Email</span> for
-        your invoice.
+        <span className="mx-1 font-extrabold text-indigo-500">
+          {customer_details.email}
+        </span>{" "}
+        for your invoice.
       </p>
     </>
   )
